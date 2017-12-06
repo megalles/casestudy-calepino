@@ -96,9 +96,24 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   html {
+     box-sizing: border-box;
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
 
+   body {
+     font-family: Futura-PT, "Trebuchet MS", Arial, sans-serif;
+   }
 
+   p {
+     font-family: UNW, "Trebuchet MS", Arial, sans-serif;
+   }
 
+   h2 {
+     font-family: Cochin, cursive; 
+   }
 
 
 
