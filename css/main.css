@@ -109,15 +109,137 @@ textarea {
 
    p {
      font-family: UNW, "Trebuchet MS", Arial, sans-serif;
+     display: block;
+     text-align: center;
    }
 
    h2 {
-     font-family: Cochin, cursive; 
+     font-family: Cochin, cursive;
+   }
+
+   img {
+     max-width: 100%;
+     display: block;
+}
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .products {
+    border: solid 1px purple;
+    margin: 1em;
+    background-color: #E7E7E7;
+
+  }
+
+  .product-thumb h3 {
+    text-decoration: none;
+    color: #8085A1;
+    font-weight: lighter;
+  }
+
+  .product-thumb {
+    position: relative;
+    width: 33%;
+    float: left;
+  }
+
+
+/*header*/
+  header {
+    border: solid 1px red;
+  }
+
+  .page-header {
+     background-color: white;
+     color: black;
+     position: relative;
+     padding: 1em;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     left: 0;
+     z-index: 100;
+   }
+
+   .page-header h1 {
+     font-size: 1.5em;
+     line-height: 1;
+     text-transform: uppercase;
+     text-align: center;
+     margin: 0;
+   }
+
+   .page-header h2 {
+     font-size: 1em;
+     line-height: 1;
+     text-align: center;
+     margin: 0;
+   }
+
+   .page-header.nav-icon {
+     float: right;
+     right: 1em;
+
+   }
+
+/*nav*/
+
+   .main-nav ul {
+     float: left;
+  	list-style-type: none;
+  	padding: 0;
+  	margin: 0;
+    border: solid 1px blue;
+  }
+
+  .main-nav li {
+	   display: inline-block;
+	   padding: .75em;
+   }
+
+   .main-nav a {
+     text-decoration: none;
+     color: black;
+     font-size: .75em;
+   }
+
+   .main-nav i {
+     float: right;
    }
 
 
 
+.big-picture {
+  margin-top: 3em;
+}
 
+
+.footer-nav ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ border: solid 1px blue;
+ text-align: center;
+}
+
+.footer-nav li {
+  display: inline-block;
+  padding: .75em;
+}
+
+.footer-nav i {
+  float: right;
+}
 
 
 
