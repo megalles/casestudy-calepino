@@ -120,7 +120,8 @@ textarea {
    img {
      max-width: 100%;
      display: block;
-}
+  }
+
   h2,
   h3,
   h4,
@@ -134,8 +135,20 @@ textarea {
     text-decoration: none;
   }
 
+  .big-picture img {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  .about-company {
+    margin: 1em;
+  }
+
+  .about-company img {
+    margin: auto;
+  }
+
   .products {
-    border: solid 1px purple;
     margin: 1em;
     background-color: #E7E7E7;
 
@@ -144,7 +157,9 @@ textarea {
   .product-thumb h3 {
     text-decoration: none;
     color: #8085A1;
-    font-weight: lighter;
+    font-weight: 400;
+    font-size: .8em;
+    letter-spacing: .075em;
   }
 
   .product-thumb {
@@ -153,11 +168,12 @@ textarea {
     float: left;
   }
 
+.email {
+  text-align: center;
+}
 
 /*header*/
-  header {
-    border: solid 1px red;
-  }
+
 
   .page-header {
      background-color: white;
@@ -189,17 +205,28 @@ textarea {
    .page-header.nav-icon {
      float: right;
      right: 1em;
+   }
 
+   .sign-up {
+       border-top: solid 1px #EEEEEE;
+       padding-top: 4em;
+       margin-top: 4em;
+       margin-left: 1em;
+       margin-right: 1em;
+   }
+
+   .about-company img{
+     margin-left: 1em;
+     margin-right: 1em;
    }
 
 /*nav*/
 
    .main-nav ul {
-     float: left;
+    float: left;
   	list-style-type: none;
   	padding: 0;
   	margin: 0;
-    border: solid 1px blue;
   }
 
   .main-nav li {
@@ -215,20 +242,29 @@ textarea {
 
    .main-nav i {
      float: right;
+     padding: 1em;
    }
 
 
-
-.big-picture {
-  margin-top: 3em;
+/*footer*/
+.page-footer {
+    border-top: solid 1px #EEEEEE;
+    padding-top: .5em;
+    margin-top: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
+ .page-footer p {
+     float: left;
+     color: #C1C1C1;
+     font-size: .75em;
+  }
 
 .footer-nav ul {
  list-style-type: none;
  padding: 0;
  margin: 0;
- border: solid 1px blue;
  text-align: center;
 }
 
@@ -239,7 +275,15 @@ textarea {
 
 .footer-nav i {
   float: right;
+  padding: 1em;
 }
+
+.footer-nav a {
+  color: black;
+  font-size: .75em;
+  text-decoration: none;
+}
+
 
 
 
