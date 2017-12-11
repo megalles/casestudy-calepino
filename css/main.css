@@ -105,6 +105,7 @@ textarea {
 
    body {
      font-family: Futura-PT, "Trebuchet MS", Arial, sans-serif;
+     margin: 1em;
    }
 
    p {
@@ -112,6 +113,11 @@ textarea {
      display: block;
      text-align: center;
    }
+
+   .about-company p {
+     max-width: 60%;
+    transform: translate(35%, -20%);
+    }
 
    h2 {
      font-family: Cochin, cursive;
@@ -136,8 +142,9 @@ textarea {
   }
 
   .big-picture img {
-    margin-right: 1em;
-    margin-left: 1em;
+    margin: 1em;
+    padding-right: 2em;
+    padding-bottom: 1em;
   }
 
   .about-company {
@@ -150,6 +157,7 @@ textarea {
 
   .products {
     margin: 1em;
+    padding: 3em 0;
     background-color: #E7E7E7;
 
   }
@@ -168,9 +176,9 @@ textarea {
     float: left;
   }
 
-.email {
-  text-align: center;
-}
+  .email {
+    text-align: center;
+  }
 
 /*header*/
 
@@ -185,6 +193,7 @@ textarea {
      top: 0;
      left: 0;
      z-index: 100;
+     padding: 1em;
    }
 
    .page-header h1 {
@@ -208,16 +217,6 @@ textarea {
      right: 1em;
    }
 
-   .more {
-     position: absolute;
-     z-index: 10;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     text-align: center;
-     line-height: 1;
-     color: white;
-}
 
    .sign-up {
        border-top: solid 1px #EEEEEE;
@@ -237,7 +236,7 @@ textarea {
    .main-nav ul {
     float: left;
   	list-style-type: none;
-  	padding: 0;
+  	padding-left: 1em;
   	margin: 0;
   }
 
