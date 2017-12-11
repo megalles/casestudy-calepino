@@ -202,14 +202,22 @@ textarea {
      margin: 0;
    }
 
-   .page-header img {
-     with: 145px;
-   }
 
    .page-header.nav-icon {
      float: right;
      right: 1em;
    }
+
+   .more {
+     position: absolute;
+     z-index: 10;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     line-height: 1;
+     color: white;
+}
 
    .sign-up {
        border-top: solid 1px #EEEEEE;
