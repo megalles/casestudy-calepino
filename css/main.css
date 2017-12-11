@@ -202,6 +202,10 @@ textarea {
      margin: 0;
    }
 
+   .page-header img {
+     with: 145px;
+   }
+
    .page-header.nav-icon {
      float: right;
      right: 1em;
