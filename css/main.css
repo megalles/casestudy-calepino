@@ -231,6 +231,18 @@ textarea {
      margin-right: 1em;
    }
 
+   .more {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 3em;
+    right: 3em;
+  }
+
 /*nav*/
   .main-nav {
     overflow: hidden;
