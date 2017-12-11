@@ -133,6 +133,10 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 
    h2 {
      font-family: Cochin Italic, cursive;
+     font-size: .7em;
+     display: block;
+     text-align: center;
+     font-weight: lighter;
    }
 
    img {
@@ -140,7 +144,6 @@ url("css/fonts/Harabara.svg#filename") format("svg");
      display: block;
   }
 
-  h2,
   h3,
   h4,
   h5 {
@@ -218,10 +221,10 @@ url("css/fonts/Harabara.svg#filename") format("svg");
      text-transform: uppercase;
      text-align: center;
      margin: 0;
+     padding-bottom: .5em;
    }
 
-   .page-header h2 {
-     font-size: 1em;
+ .page-header h2 {
      line-height: 1;
      text-align: center;
      margin: 0;
@@ -237,7 +240,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
    .sign-up {
        border-top: solid 1px #EEEEEE;
        padding-top: 4em;
-       margin-top: 4em;
+       margin-top: 2em;
        margin-left: 1em;
        margin-right: 1em;
    }
